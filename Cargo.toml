@@ -1,0 +1,10 @@
+[package]
+name = "counter_app"
+version = "0.1.0"
+edition = "2021"
+authors=["Tarun Thakur <Bihari123@github.com>"]
+
+[dependencies]
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+ratatui = { version = "0.28.1", features = ["all-widgets"] }
